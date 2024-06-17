@@ -1,0 +1,58 @@
+
+section {
+    width: 400px;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    background-color:blueviolet;
+    margin: 10px auto; /* Ajuste a margem superior conforme necessário */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #d1c7c7;
+    text-align: center;
+    padding: 10px; /* Adiciona padding para espaçar o conteúdo */
+}
+
+
+
+.foto-minha {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as fotos se quebrem em múltiplas linhas */
+    justify-content: center; /* Centraliza as fotos horizontalmente */
+    gap: 10px; /* Espaçamento entre as fotos */
+}
+
+.foto-minha img {
+    width: 200px; /* Ajuste este valor para a largura desejada */
+    height: 200px; /* Ajuste este valor para a altura desejada */
+    object-fit: cover; /* Ajusta a imagem para caber no tamanho definido */
+    border-radius: 5px;
+}
+
+
+
+/* Estilo para o botão "voltar" */
+.voltar {
+    display: inline-block; /* Permite definir largura e altura */
+    padding: 10px 20px;  /* Espaço interno */
+    background-color: hsl(283, 80%, 39%); /* Cor de fundo verde */
+    color: white;  /* Cor do texto branco */
+    text-align: center;  /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar o mouse */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+    
+  }
+  
+  /* Mudança de cor ao passar o mouse */
+  .voltar:hover {
+    background-color: hsl(0, 50%, 72%);
+  }
+  
+ .resumo, h2 {
+    color: blueviolet;
+    box-sizing: border-box;
+}
+
+.resumo, p {
+    color: #f8f7fa;
+}

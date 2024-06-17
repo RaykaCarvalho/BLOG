@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fundobase.jpeg);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 500px; /* Diminui a largura do container */
+    height: 450px; /* Diminui a altura do container */
+    background-color: hsl(298, 49%, 41%);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hwb(0 97% 0%);
+    text-align: center;
+}
+
+.profile {
+    padding: 20px;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px #0f0f0f;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.skills ul {
+    display: flex; /* Define o display como flex para os itens da lista */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    list-style: none;
+    padding: 0;
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.skills ul li {
+    margin-bottom: 0; /* Remove a margem inferior dos itens */
+}
+
+.skills i {
+    font-size: 2em; /* Define o tamanho dos ícones */
+}
+
+.links {
+    padding: 20px;
+}
+
+.links a {
+    background-image: linear-gradient(to right, #800080, #4b0082); /* Gradiente roxo */
+    color: white;
+    padding: 5px 10px;
+    border: none; /* Remove a borda */
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    background-image: linear-gradient(to right, #9932cc, #663399); /* Gradiente roxo mais escuro */
+  }
+
+.links i {
+    margin-right: 5px; 
+}
+
+.social, a {
+    font-size: 1em; /* Define o tamanho dos ícones */
+    color: aliceblue;
+}
